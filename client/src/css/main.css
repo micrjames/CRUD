@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#hdr-bar {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+}
+#hdr-bar #company-identifier #logo-icon {
+  font-size: 1.75rem;
+}
+#hdr-bar #company-identifier #company-name {
+  font-size: 1.5rem;
+}
+#hdr-bar nav {
+  margin-top: 0.35rem;
+  margin-right: 2rem;
+}
+#hdr-bar nav menu {
+  list-style-type: none;
+}
+#hdr-bar nav menu li {
+  font-size: 1.2rem;
+  display: inline;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+#hdr-bar nav menu li:not(:last-child) {
+  margin-right: 1.2rem;
+}
+#hdr-bar nav menu li:hover {
+  font-weight: bolder;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+}
+
+#ftr-bar {
+  background-color: lightgray;
+  font-size: 1.15rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.75rem;
+}
+#ftr-bar #site-info ul {
+  list-style-type: none;
+}
+#ftr-bar #site-info ul li {
+  display: inline;
+  cursor: pointer;
+}
+#ftr-bar #site-info ul li:not(:last-child) {
+  margin-right: 1.2rem;
+}
+#ftr-bar #copyright-info {
+  font-size: 1rem;
+}
