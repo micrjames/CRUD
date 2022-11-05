@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+   	<meta charset="UTF-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link rel="stylesheet" href="css/crud.css">
+    <script src="https://kit.fontawesome.com/aaeb479cf8.js" crossorigin="anonymous"></script>
+   	<title>CRUD delete</title>
+	</head>
+	<body>
+	    <header id="hdr-bar">
+		  <section id="company-identifier">
+			 <i id="logo-icon" class="fa-solid fa-warehouse"></i>
+			 <span id="company-name">CRUD&comma; Inc</span>
+		  </section>
+		  <nav>
+			 <menu>
+				<li>login</li>
+				<li>signup</li>
+				<li>settings</li>
+			 </menu>
+		  </nav>
+		</header>
+	    <main>
+		    <h1>Delete</h1>
+			<form id="form">                                                                              
+                 <fieldset>
+                    <span class="form-control">
+                        <label for="form-username">User Name</label>
+                        <input
+                               id="form-username"
+                               name="username"
+                               type="text"
+                               placeholder="i.e. Enter your User Name Here"
+                        >
+                        <ul class="error-message">
+                            <li>Must start with a letter (lowercase or capital).</li>
+                            <li>Must have at least five character.</li>
+                        </ul>
+                    </span>
+                    <hr>
+                    <div id="form-btn-group">
+                        <input class="btn" id="form-btn-group-reset" type="reset">
+                        <input class="btn" id="form-btn-group-btn" type="submit" value="Submit">
+                    </div>
+                 </fieldset>
+            </form>
+		</main>
+		<footer id="ftr-bar">
+		   <section id="site-info">
+			 <ul>
+				<li>Privacy</li>
+				<li>Terms</li>
+				<li>Contact</li>
+			 </ul>
+		   </section>
+		   <section id="copyright-info">Copyright 2022, CRUD&comma; Inc</section>
+		</footer>
+   	<script src="js/index.js" type="module"></script>
+	</body>
+</html>
