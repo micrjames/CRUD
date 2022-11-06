@@ -77,9 +77,9 @@
                        >
                        <ul class="error-message">
                            <li>Must contain at least one word character.</li>
-                           <li>May, then, contain one of the following: +, ., a word character, or a hyphen    .</li>
+                           <li>May, then, contain one of the following: +, ., a word character, or a hyphen.</li>
                            <li>Must, then, contain the @ symbol.</li>
-                           <li>Then, finally, must contain a series of extension characters following a . s    ymbol.</li>
+                           <li>Then, finally, must contain a series of extension characters following a . symbol.</li>
                        </ul>
                    </span>
                    <hr>
@@ -89,6 +89,34 @@
                    </div>
 				</fieldset>
 			</form>
+			<output id="output">
+                <table id="output-tbl">
+                    <caption>CRUD Summary</caption>
+                    <thead>
+                        <tr>
+                            <th>username</th>
+                            <th>name</th>
+                            <th>password</th>
+                            <th>email</th>
+                       </tr>
+                    </thead>
+                    <tbody id="output-tbl-body">
+                        <tr>
+                            <th>micrjames</th>
+                            <td>Michael James</td>
+                            <td>hM5BmWy1</td>                                                             
+                            <td>micrjames@gmail.com</td>
+                       </tr>
+                   </tbody>
+                   <tfoot id="output-tbl-foot">
+                        <tr id="output-tbl-foot-row">
+                            <th scope="row" colspan="1">Total</th>
+                            <td id="output-tbl-foot-row-qty" colspan="1"></td>
+                            <td id="output-tbl-foot-row-total" colspan="1"></td>
+                        </tr>
+                   </tfoot>
+               </table>
+            </output>
 		</main>
 		<footer id="ftr-bar">
 		   <section id="site-info">
@@ -100,6 +128,6 @@
 		   </section>
 		   <section id="copyright-info">Copyright 2022, CRUD&comma; Inc</section>
 		</footer>
-   	<script src="js/index.js" type="module"></script>
+   	<script src="js/update.js" type="module"></script>
 	</body>
 </html>

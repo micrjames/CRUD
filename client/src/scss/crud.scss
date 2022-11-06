@@ -1,4 +1,4 @@
-@import 'utils/config', 'form', 'hdr-bar', 'ftr-bar', 'utils/button', 'utils/utils';
+@import 'utils/config', 'output', 'form', 'hdr-bar', 'ftr-bar', 'utils/button', 'utils/utils';
 $primary-color: lightgray;
 
 #hdr-bar {
@@ -6,6 +6,7 @@ $primary-color: lightgray;
 }
 main {
    @extend %form;
+   @extend %output;
 }
 #ftr-bar {
    @include ftr-bar($primary-color);

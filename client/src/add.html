@@ -22,9 +22,9 @@
 			 </menu>
 		  </nav>
 		</header>
-	    <main>
+	    <main id="main-container">
 		   	<h1>Add</h1>
-			<form id="form">
+			<form name="form" id="form">
 			   <fieldset>
 				   <span class="form-control">
 					  <label for="form-name">Name</label>
@@ -121,8 +121,36 @@
 					  <input class="btn" id="form-btn-group-reset" type="reset">
 					  <input class="btn" id="form-btn-group-btn" type="submit" value="Submit">
 				  </div>
-		</fieldset>
-</form>
+			  </fieldset>
+			</form>
+			<output id="output">
+			   <table id="output-tbl">
+				   <caption>CRUD Summary</caption>
+				   <thead>
+					   <tr>
+						   <th>username</th>
+						   <th>name</th>
+						   <th>password</th>
+						   <th>email</th>
+					   </tr>
+				   </thead>
+				   <tbody id="output-tbl-body">
+					   <tr>
+						  <th>micrjames</th>
+						  <td>Michael James</td>
+						  <td>hM5BmWy1</td>
+						  <td>micrjames@gmail.com</td>
+					   </tr>
+				   </tbody>
+				   <tfoot id="output-tbl-foot">
+					   <tr id="output-tbl-foot-row">
+						   <th scope="row" colspan="1">Total</th>
+						   <td id="output-tbl-foot-row-qty" colspan="1"></td>
+						   <td id="output-tbl-foot-row-total" colspan="1"></td>
+					   </tr>
+				   </tfoot>
+			   </table>
+			</output>
 		</main>
 		<footer id="ftr-bar">
 		   <section id="site-info">
@@ -134,6 +162,6 @@
 		   </section>
 		   <section id="copyright-info">Copyright 2022, CRUD&comma; Inc</section>
 		</footer>
-   	<script src="js/index.js" type="module"></script>
+   	<script src="js/add.js" type="module"></script>
 	</body>
 </html>
