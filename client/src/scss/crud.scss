@@ -5,6 +5,8 @@ $primary-color: lightgray;
    @include hdr-bar($primary-color);
 }
 main {
+   width: 100vw;
+   height: 90vh;
    @extend %form;
    @extend %output;
 }
